@@ -1,14 +1,16 @@
 {
   "name": "linked-items",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "dist/index.umd.js",
   "files": [
 	"dist/index.es.js",
 	"dist/index.umd.js",
-	"dist/style.css"
+	"dist/style.css",
+	"README.md"
   ],
   "scripts": {
+	"prepublishOnly": "npm run build",
 	"build": "vite build"
   },
   "keywords": [],
