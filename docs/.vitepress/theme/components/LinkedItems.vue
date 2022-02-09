@@ -32,6 +32,7 @@ onMounted(async () => {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	align-items: center;
 }
 
 @media screen and (max-width: 700px) {
