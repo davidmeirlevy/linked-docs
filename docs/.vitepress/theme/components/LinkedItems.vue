@@ -74,6 +74,11 @@ a:nth-child(4n) {
 		width: 30vw;
 		height: 30vw;
 		font-size: 1.8em;
+		transition: none;
+	}
+
+	a:hover {
+		border-width: 0;
 	}
 }
 </style>
