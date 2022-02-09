@@ -1,4 +1,4 @@
-# Linked Items
+# Linked Docs
 
 
 ### Demo
@@ -6,7 +6,7 @@ https://linked-docs.netlify.app/
 
 ### Install
 ```shell
-$ npm i linked-items
+$ npm i linked-docs
 ```
 
 ### Usage
@@ -14,7 +14,7 @@ $ npm i linked-items
 *Add component to your VitePress / VuePress configurations *
 ```ts
 // At your .vitepress/theme/index.ts:
-import LinkedItems from 'linked-items';
+import {LinkedItems} from 'linked-docs';
 
 export default {
 	// ... other config

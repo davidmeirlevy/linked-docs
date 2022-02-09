@@ -1,5 +1,5 @@
 {
-  "name": "linked-docs",
+  "name": "linked-docs-demo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,5 +12,7 @@
   "license": "MIT",
   "devDependencies": {
     "vitepress": "^0.21.4"
+  },
+  "dependencies": {
   }
 }

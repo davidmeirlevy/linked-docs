@@ -1,6 +1,6 @@
 {
-  "name": "linked-items",
-  "version": "0.1.1",
+  "name": "linked-docs",
+  "version": "0.1.2",
   "description": "",
   "main": "dist/index.umd.js",
   "files": [
