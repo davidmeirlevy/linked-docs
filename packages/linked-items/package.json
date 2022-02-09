@@ -1,0 +1,21 @@
+{
+  "name": "linked-items",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.umd.js",
+  "files": [
+	"dist/index.es.js",
+	"dist/index.umd.js",
+	"dist/style.css"
+  ],
+  "scripts": {
+	"build": "vite build"
+  },
+  "keywords": [],
+  "author": "David Meir-Levy <davidmeirlevy@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+	"@vitejs/plugin-vue": "^2.2.0",
+	"vite": "^2.8.0"
+  }
+}
