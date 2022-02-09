@@ -34,6 +34,17 @@ onMounted(async () => {
 	flex-wrap: wrap;
 }
 
+@media screen and (max-width: 700px) {
+	.linked-items {
+		flex-direction: column;
+	}
+
+	a {
+		width: 80vw;
+		height: 80vw;
+	}
+}
+
 a {
 	box-sizing: border-box;
 	display: flex;
