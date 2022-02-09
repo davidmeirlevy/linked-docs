@@ -1,8 +1,8 @@
 {
   "name": "linked-docs",
-  "version": "0.1.2",
+  "version": "0.1.8",
   "description": "",
-  "main": "dist/index.umd.js",
+  "main": "dist/index.es.js",
   "files": [
 	"dist/index.es.js",
 	"dist/index.umd.js",

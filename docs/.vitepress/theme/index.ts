@@ -1,14 +1,10 @@
 import DefaultTheme from 'vitepress/theme';
-
-const components = import.meta.globEager('./components/*.vue');
+import {LinkedItems} from 'linked-docs'
+import 'linked-docs/dist/style.css'
 
 export default {
 	...DefaultTheme,
 	enhanceApp({app}) {
-		// register global components
-		Object.keys(components).forEach(path => {
-			const name = path.replace('./components/', '').replace(/\.vue$/, '');
-			app.component(name, components[path].default);
-		})
+		app.component('LinkedItems', LinkedItems)
 	}
 }
