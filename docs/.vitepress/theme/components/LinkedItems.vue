@@ -36,17 +36,6 @@ onMounted(async () => {
 	justify-content: center;
 }
 
-@media screen and (max-width: 700px) {
-	.linked-items {
-		flex-direction: column;
-	}
-
-	a {
-		width: 40vw;
-		height: 40vw;
-	}
-}
-
 a {
 	box-sizing: border-box;
 	display: flex;
@@ -75,7 +64,16 @@ a:nth-child(4n-2) {
 a:nth-child(4n-1) {
 	background-color: #8feac7;
 }
+
 a:nth-child(4n) {
 	background-color: #b8bd2c;
+}
+
+@media screen and (max-width: 700px) {
+	a {
+		width: 30vw;
+		height: 30vw;
+		font-size: 1.8em;
+	}
 }
 </style>
