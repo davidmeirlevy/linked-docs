@@ -42,8 +42,8 @@ onMounted(async () => {
 	}
 
 	a {
-		width: 80vw;
-		height: 80vw;
+		width: 40vw;
+		height: 40vw;
 	}
 }
 
