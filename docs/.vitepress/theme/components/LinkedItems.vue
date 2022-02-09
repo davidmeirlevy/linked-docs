@@ -18,7 +18,7 @@ onMounted(async () => {
 
 	const set = new Set
 	linksEls.forEach(el => {
-		if (el.href.startsWith('.') && !set.has(el.href)) {
+		if (el.href.startsWith(location.origin) && !set.has(el.href)) {
 			set.add(el.href);
 			links.value.push({text: el.innerText, href: el.href})
 		}
