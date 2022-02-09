@@ -68,11 +68,14 @@ a:hover {
 	text-decoration: none;
 }
 
-a:nth-child(3n-1) {
+a:nth-child(4n-2) {
 	background-color: #df342a;
 }
 
-a:nth-child(3n) {
+a:nth-child(4n-1) {
 	background-color: #8feac7;
+}
+a:nth-child(4n) {
+	background-color: #b8bd2c;
 }
 </style>
