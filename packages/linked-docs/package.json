@@ -1,7 +1,8 @@
 {
   "name": "linked-docs",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "",
+  "type": "module",
   "main": "dist/index.es.js",
   "files": [
 	"dist/index.es.js",

@@ -1,6 +1,6 @@
 <template>
 	<div class="linked-items" ref="container">
-		<a v-for="(link, index) in links" :key="index" :href="link.href"><span>{{ link.text }}</span></a>
+		<a v-for="(link, index) in links" :key="index" :href="link.href" :data-count="link.count"><span>{{ link.text }}</span></a>
 	</div>
 </template>
 
@@ -16,13 +16,20 @@ onMounted(async () => {
 	const contentEl = container.value.closest('.container').querySelector('.content');
 	const linksEls = contentEl.querySelectorAll('a');
 
-	const set = new Set
+	const map = new Map
 	linksEls.forEach(el => {
-		if (el.href.startsWith(location.origin) && !set.has(el.href)) {
-			set.add(el.href);
-			links.value.push({text: el.innerText, href: el.href})
+		if (!el.href.startsWith(location.origin)) {
+			return;
+		}
+		if (map.has(el.href)) {
+			map.get(el.href).count++;
+		} else {
+			map.set(el.href, {text: el.innerText, href: el.href, count: 1});
 		}
 	})
+	links.value = Array.from(map.values()).sort((a, b) => {
+		return b.count - a.count;
+	});
 })
 </script>
 
