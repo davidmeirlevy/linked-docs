@@ -1,7 +1,7 @@
 {
   "name": "linked-docs",
-  "version": "0.1.9",
-  "description": "",
+  "version": "0.1.10",
+  "description": "Show bubbles of relevant links on docs pages",
   "type": "module",
   "main": "dist/index.es.js",
   "files": [
@@ -14,7 +14,12 @@
 	"prepublishOnly": "npm run build",
 	"build": "vite build"
   },
-  "keywords": [],
+  "keywords": [
+	"vue",
+	"vitepress",
+	"vuepress",
+	"docs"
+  ],
   "author": "David Meir-Levy <davidmeirlevy@gmail.com>",
   "license": "MIT",
   "devDependencies": {

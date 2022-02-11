@@ -2,6 +2,8 @@
 
 
 ### Demo
+Fast automatics top links to make documentations more friendly.
+
 https://linked-docs.netlify.app/
 
 ### Install
