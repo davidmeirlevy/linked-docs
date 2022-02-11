@@ -8,7 +8,7 @@ https://linked-docs.netlify.app/
 
 ### Install
 ```shell
-$ npm i linked-docs
+$ npm i --save-dev linked-docs
 ```
 
 ### Usage
