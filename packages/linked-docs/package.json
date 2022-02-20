@@ -1,9 +1,8 @@
 {
   "name": "linked-docs",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "Show bubbles of relevant links on docs pages",
   "repository": "https://github.com/davidmeirlevy/linked-docs",
-  "type": "module",
   "main": "dist/index.es.js",
   "files": [
 	"dist/index.es.js",
