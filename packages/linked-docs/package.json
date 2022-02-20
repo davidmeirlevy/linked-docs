@@ -1,6 +1,6 @@
 {
   "name": "linked-docs",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "Show bubbles of relevant links on docs pages",
   "repository": "https://github.com/davidmeirlevy/linked-docs",
   "type": "module",

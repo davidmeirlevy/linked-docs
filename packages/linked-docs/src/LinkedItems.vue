@@ -6,6 +6,7 @@
 
 <script lang="ts" setup>
 import {onMounted, ref, nextTick} from 'vue'
+import {getContentContainer} from './config';
 
 const container = ref();
 
@@ -13,12 +14,12 @@ const links = ref([]);
 
 onMounted(async () => {
 	await nextTick();
-	const contentEl = container.value.closest('.container').querySelector('.content');
+	const contentEl = getContentContainer(container.value)
 	const linksEls = contentEl.querySelectorAll('a');
 
 	const map = new Map
 	linksEls.forEach(el => {
-		if (!el.href.startsWith(location.origin)) {
+		if (!el.href.startsWith(location.origin) || el.getAttribute('href').startsWith('#')) {
 			return;
 		}
 		if (map.has(el.href)) {
