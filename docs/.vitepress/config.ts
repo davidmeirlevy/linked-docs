@@ -9,6 +9,8 @@ export default defineConfig({
 		docsBranch: 'main',
 		sidebar: [
 			{link: '/', text: 'Index'},
+			{link: '/linked-items', text: 'Linked Items'},
+			{link: '/presentation-page', text: 'Presentation Page'},
 			{link: '/lorem', text: 'Lorem'},
 			{link: '/ipsum', text: 'Ipsum'},
 			{link: '/dolor', text: 'Dolor'},

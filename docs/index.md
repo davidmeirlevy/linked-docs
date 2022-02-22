@@ -5,10 +5,14 @@ editLink: true
 <LinkedItems/>
 <PresentationPage/>
 
-Morbi ut elit libero. Morbi vel euismod [lorem](./lorem). Etiam mattis [sit](./sit) [amet](./amet) enim non molestie. Aenean vel massa a dui scelerisque cursus eget quis mi. Proin felis leo, tincidunt quis risus quis, facilisis cursus turpis. Morbi ultricies, orci non condimentum finibus, nisl nibh rhoncus urna, at blandit sem ex vitae metus. Cras vel ex eu tortor pulvinar gravida quis a elit. In id porttitor massa. Pellentesque ac orci a tortor accumsan tristique quis quis sem. In hac habitasse platea dictumst. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur est libero, lobortis eu mauris et, tincidunt pellentesque [dolor](./dolor). Curabitur elit nibh, dapibus a posuere eget, vestibulum [sit](./sit) [amet](./amet) mauris. Nullam lacus nisi, gravida vitae pharetra quis, blandit nec urna.
+# Linked Docs
 
+GitHub Repository: https://github.com/davidmeirlevy/linked-docs
 
-## List
-- Morbi ut elit libero. Morbi vel euism
-- enim non molestie
-- Aenean vel massa a dui scelerisque
+This library was meant to create tools for documentations written in vitepress / vuepress, to make them more friendly and make it easier for readers to find their solutions faster.
+
+### [Linked Items](./linked-items)
+The first component is the [Linked Items](./linked-items) that aims to help the readers to navigate to the page they actually need without reading the whole documentation.
+
+### [Presentation Page](./presentation-page)
+The second component is the [Presentation Page](./presentation-page) that aims to create a slides presentation from a page's content.

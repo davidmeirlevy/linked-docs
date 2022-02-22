@@ -15,6 +15,7 @@ $ npm i linked-docs
 ```ts
 // At your .vitepress/theme/index.ts:
 import {LinkedItems} from 'linked-docs';
+import 'linked-docs/dist/style.css'
 
 export default {
 	// ... other config
