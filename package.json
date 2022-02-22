@@ -11,7 +11,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "linked-docs": "^0.1.13",
+    "linked-docs": "^0.1.14",
     "vitepress": "^0.21.4"
   }
 }

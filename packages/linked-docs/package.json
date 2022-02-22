@@ -1,29 +1,29 @@
 {
   "name": "linked-docs",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "Show bubbles of relevant links on docs pages",
   "repository": "https://github.com/davidmeirlevy/linked-docs",
   "main": "dist/index.es.js",
   "files": [
-	"dist/index.es.js",
-	"dist/index.umd.js",
-	"dist/style.css",
-	"README.md"
+    "dist/index.es.js",
+    "dist/index.umd.js",
+    "dist/style.css",
+    "README.md"
   ],
   "scripts": {
-	"prepublishOnly": "npm run build",
-	"build": "vite build"
+    "prepublishOnly": "npm run build",
+    "build": "vite build"
   },
   "keywords": [
-	"vue",
-	"vitepress",
-	"vuepress",
-	"docs"
+    "vue",
+    "vitepress",
+    "vuepress",
+    "docs"
   ],
   "author": "David Meir-Levy <davidmeirlevy@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-	"@vitejs/plugin-vue": "^2.2.0",
-	"vite": "^2.8.0"
+    "@vitejs/plugin-vue": "^2.2.0",
+    "vite": "^2.8.0"
   }
 }
